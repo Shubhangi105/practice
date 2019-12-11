@@ -1,0 +1,65 @@
+Script started on 2019-12-11 14:38:49+0530
+(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ ps -aux | grep firefox |lless[A(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ [14Pkill 10781
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -aux | grep firefox[Kfirefox google.com &[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkd[K[K[Kgit add .
+(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ git stt[Katus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   aboutme[m
+	[32mnew file:   git[m
+	[32mnew file:   nochange[m
+
+(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ git commit -m "I have ad ded files"[C
+[master (root-commit) 7aa0648] I have added files
+ 3 files changed, 1 insertion(+)
+ create mode 100644 aboutme
+ create mode 100644 git
+ create mode 100644 nochange
+(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ git log
+[?1h=[33mcommit 7aa0648658df33029bed2779eb107588c485dad2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Shubhangi105 <shubhangi10598@gmail.com>[m
+Date:   Wed Dec 11 14:39:57 2019 +0530[m
+[m
+    I have added files[m
+[K[?1l>(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ gedit nochange 
+(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ gedit nochange [8Pit logcommit -m "I have addded files"[A(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ [C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   nochange[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ git statusedit nochange [8Pit logcommit -m "I have addded files"[A(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ [C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Padd .ps -aux | grep firefox |lless[A(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ [15Pgit add .
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ git add .statusedit nochange [8Pit logcommit -m "I have addded files"
+[master f46c46e] I have added files
+ 1 file changed, 1 insertion(+)
+(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ git commit -m "I have addded files"[1P files"[C[C[1P files"[C[1P files"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C f[1Piles"[A(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C fi[1Ples"[A(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfil[1Pes"[A(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+On branch master
+Changes not staged for commit:
+	[31mmodified:   git[m
+
+no changes added to commit
+(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ git commit -m "I have filles"[A(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd[Cd files"[A(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   git[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;shubhangi@shubhangi-ThinkPad-E450: ~/gitpractice[01;32mshubhangi@shubhangi-ThinkPad-E450[00m:[01;34m~/gitpractice[00m$ exit
+exit
+
+Script done on 2019-12-11 14:45:58+0530
